@@ -1,0 +1,54 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey"],
+      "responses": ["Hello!", "Hi there!", "Welcome!"]
+    },
+    {
+      "tag": "morning",
+      "patterns": ["good morning"],
+      "responses": ["Good Morning! Have a nice day."]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name", "who are you"],
+      "responses": ["My name is AI Chatbot."]
+    },
+    {
+      "tag": "age",
+      "patterns": ["how old are you"],
+      "responses": ["I am ageless."]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["who created you"],
+      "responses": ["I was created using Python."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thank you", "thanks"],
+      "responses": ["You are welcome!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["help"],
+      "responses": ["How can I help you?"]
+    },
+    {
+      "tag": "ai",
+      "patterns": ["what is ai"],
+      "responses": ["AI means Artificial Intelligence."]
+    },
+    {
+      "tag": "course",
+      "patterns": ["which course"],
+      "responses": ["I know Python, AI and ML."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye"],
+      "responses": ["Goodbye!"]
+    }
+  ]
+}
