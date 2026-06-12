@@ -1,0 +1,33 @@
+User: hi
+Bot: Hello!
+
+User: hello
+Bot: Hi there!
+
+User: how are you
+Bot: I am fine.
+
+User: what is your name
+Bot: My name is AI Chatbot.
+
+User: how old are you
+Bot: I am ageless.
+
+User: help
+Bot: How can I help you?
+
+User: what is ai
+Bot: AI means Artificial Intelligence.
+
+User: who created you
+Bot: I was created using Python.
+
+User: which course
+Bot: I know Python, AI and ML.
+
+User: thank you
+Bot: You are welcome.
+
+User: bye
+Bot: Goodbye!
+
