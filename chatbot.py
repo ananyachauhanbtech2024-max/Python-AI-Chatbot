@@ -37,11 +37,12 @@ while True:
     elif user == "bye":
         response = "Goodbye!"
 
-        with open("chat_history.txt", "a") as file:
+        print("Bot:", response)
+
+        with open("chat_history.txt", "a", encoding="utf-8") as file:
             file.write(f"User: {user}\n")
             file.write(f"Bot: {response}\n\n")
 
-        print("Bot:", response)
         break
 
     else:
@@ -49,6 +50,6 @@ while True:
 
     print("Bot:", response)
 
-    with open("chat_history.txt", "a") as file:
+    with open("chat_history.txt", "a", encoding="utf-8") as file:
         file.write(f"User: {user}\n")
         file.write(f"Bot: {response}\n\n")
